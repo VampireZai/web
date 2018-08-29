@@ -1,0 +1,45 @@
+.ad
+{
+	width: 960px;
+}
+.ad img
+{
+	width: 100%;   /*设置图片的宽或高,另一个就会自适应*/
+	vertical-align: bottom;   /*图片的下方,会自动多出几个像素,需要用这个属性去除*/
+}
+.whyQQ
+{
+	height: 280px;
+	width: 100%;
+	background: rgb(246,249,254);
+	overflow: hidden;    /*让子元素的margin-top不透传*/
+} 
+.whyQQ div      /*只要写出一个div的样式,后面的标签可以直接使用*/
+{
+	float: left;
+	height: 108px;
+	width: 33.33333%;
+	position: relative;
+}
+.whyQQ div font
+{
+	font-size: 85px;
+	font-weight: 900;
+	margin-left: 10px;
+	color: rgb(199,221,242);
+}
+.whyQQ div h5
+{
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+.whyQQ div p
+{
+	position: absolute;
+	font-size: 11px;
+	left: 95px;
+	top: 40px;
+	
+}
+
